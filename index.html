@@ -31,6 +31,25 @@
         .brand-logo { display: block; width: 150px; height: auto; }
         .brand-footer .brand-logo { width: 190px; }
         .trust-badge { width: 76px; height: 76px; object-fit: contain; flex: 0 0 76px; }
+        .footer-social { display: flex; align-items: center; gap: 12px; margin-top: 18px; }
+        .footer-social a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.08);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.18);
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+        .footer-social a:hover,
+        .footer-social a:focus-visible {
+            transform: translateY(-2px);
+            background: rgba(255,255,255,0.14);
+        }
+        .footer-social i { font-size: 1rem; }
         @media (max-width: 720px) {
             .trust-badge { width: 62px; height: 62px; flex-basis: 62px; }
         }
@@ -303,9 +322,14 @@
     <footer class="site-footer">
         <div class="container footer-top"><a class="brand brand-footer" href="#home"><img class="brand-logo"
                 src="img/logo_white.png" alt="Barakah Naturals"></a>
-            <p>Natural honey solutions for retail,<br>wholesale, and bulk buyers.</p>
-            <nav aria-label="Footer navigation"><a href="#about">About</a><a href="#products">Products</a><a
+            <nav class="footer-nav" aria-label="Footer navigation"><a href="#about">About</a><a href="#products">Products</a><a
                     href="#wholesale">Wholesale</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav>
+            <div class="footer-social" aria-label="Social media links">
+                <a href="https://www.instagram.com/barakah.naturals.in?stkn=N3JrNHFxZ2Q0cDc0" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <!-- <a href="https://www.facebook.com/barakahnaturals" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                <a href="https://x.com/barakahnaturals" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/company/barakahnaturals/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a> -->
+            </div>
         </div>
         <div class="container footer-bottom"><span>© 2026 Barakah Naturals. All rights reserved.</span><span>Pure
                 nature. Honest honey.</span></div>

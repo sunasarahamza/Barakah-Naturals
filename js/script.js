@@ -1,4 +1,4 @@
-const BUSINESS_CONFIG = {name:'Barakah Naturals',whatsapp:'919372233835',email:'sheliyadanish@gmail.com',phone:'+91 8108559909'};
+const BUSINESS_CONFIG = {name:'Barakah Naturals',whatsapp:'918108559909',email:'sheliyadanish@gmail.com',phone:'+91 8108559909'};
 const products = [
   {id:'multi-flora-honey',name:'Multi-flora Honey',description:'A versatile honey for everyday retail and wholesale supply.',sizes:['250g','500g','1kg','5kg','25kg'],image:'img/product1.png'},
   {id:'forest-honey',name:'Forest Honey',description:'A naturally rich honey prized for its deep flavor and closer-to-nature profile.',sizes:['500g','1kg','5kg','25kg'],image:'img/product2.png'},
